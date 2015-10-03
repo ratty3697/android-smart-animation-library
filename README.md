@@ -1,3 +1,9 @@
+
+<style>
+div img{ display: inline-block;}
+
+</style>
+
 # android-smart-animation-library
 this library is drived from nineoldandroid library
 
@@ -13,5 +19,9 @@ Features --><br>
 <h1>How to Import this Library in Your Android studio Project?</h1>
 
 
-<img src="http://www.gettyimages.in/gi-resources/images/Homepage/Category-Creative/UK/UK_Creative_462809583.jpg">
+<div>
+    <img src="http://udharimanager.in/animation1.gif" />
+    <img src="http://udharimanager.in/a2.gif" />
+    <img src="http://udharimanager.in/a3.gif" />
+</div>
 
