@@ -43,6 +43,10 @@ then to animate simply add this code  when you want to animate--><br>
 <br>
 <b>SmartAnimation.with(AnimationType.Bounce).duration(1000).playOn(findViewById(R.id.layout21));</b>
 <br><br>
+where ---> ".duration(1000)" refers that animation will occour for 1000 mili seconds.<br>
+           "Bounce" refers animation should be of bounce type You can use any type of animation code listed below.<br>
+           ".playOn(findViewById(R.id.layout21)" refers playing animation on the element of this id.        
+
  
 
 
