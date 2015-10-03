@@ -18,16 +18,16 @@ Features --><br>
 5.)animation are already in diffrent thread so you dont have to add threads ...just simply add a single line of code and animation is done :D<br>
 
 <h1>How to Import this Library in Your Android studio Project?</h1>
+step1 --><br>
 click on FIRST gradle file (build.gradle) highlighted in yellow.<br>
 <img src="http://udharimanager.in/first.PNG"><br>
 then replace your allprojects columb with this code --><br>
 <br>
-allprojects {<br>
-        repositories {<br>
-                jcenter()<br>
-                maven { url "https://jitpack.io" }<br>
-        }
-}
+<img src="http://udharimanager.in/code1gradle.PNG"><br>
+
+step2 -->
+click on second gradle file(gradle.build) highlighted in yellow.<br>
+<img src="http://udharimanager.in/second.PNG"><br>
 
 
 
