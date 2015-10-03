@@ -1,7 +1,11 @@
-
-
-
 # android-smart-animation-library
+<div>
+    <img src="http://udharimanager.in/animation1.gif"  height="150" width="125" />
+    <img src="http://udharimanager.in/a2.gif" height="250" width="125" />
+    <img src="http://udharimanager.in/a3.gif" height="250" width="125" />
+    <img src="http://udharimanager.in/a4.png.gif" height="250" width="125" />
+</div>
+
 this library is drived from nineoldandroid library
 
 This is android library for adding smart animation in its any element (i.e. TextView , EditText ,LinearLayout etc...and everything ;)  )
@@ -16,10 +20,5 @@ Features --><br>
 <h1>How to Import this Library in Your Android studio Project?</h1>
 
 
-<div>
-    <img src="http://udharimanager.in/animation1.gif"  height="300" width="150" />
-    <img src="http://udharimanager.in/a2.gif" height="300" width="150" />
-    <img src="http://udharimanager.in/a3.gif" height="300" width="150" />
-    <img src="http://udharimanager.in/a4.png.gif" height="300" width="150" />
-</div>
+
 
