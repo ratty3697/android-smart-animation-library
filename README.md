@@ -17,8 +17,9 @@ Features --><br>
 
 
 <div>
-    <img src="http://udharimanager.in/animation1.gif"  height="30" width="15" />
-    <img src="http://udharimanager.in/a2.gif" />
-    <img src="http://udharimanager.in/a3.gif" />
+    <img src="http://udharimanager.in/animation1.gif"  height="300" width="150" />
+    <img src="http://udharimanager.in/a2.gif" height="300" width="150" />
+    <img src="http://udharimanager.in/a3.gif" height="300" width="150" />
+    <img src="http://udharimanager.in/a4.png.gif" height="300" width="150" />
 </div>
 
