@@ -41,7 +41,7 @@ You can animate anything like --> textview , edittext ,linearlayout ,relativelay
 suppose my LinearLayout id is "layout21"<br>
 then to animate this LinearLayout simply add this code  when you want to animate--><br>
 <br>
-<b><i>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).playOn(findViewById(R.id.layout21));<i></b>
+<b><i>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).playOn(findViewById(R.id.layout21));</i></b>
 <br><br>
 where ---> <br>".duration(1000)" refers that animation will occour for 1000 mili seconds.<br><br>
            "BounceInDown" refers animation should be of bounce in down type You can use any type of animation code <b>listed below</b>.<br><br>
@@ -51,14 +51,14 @@ where ---> <br>".duration(1000)" refers that animation will occour for 1000 mili
 <b>To make delay</b> in animation just add ".delay(1000)" --> which refers to 1000 mili seconds delay<br>
 code will look like -->
 <br><br>
-<b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).delay(1000).playOn(findViewById(R.id.layout21));</b>
+<b><i>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).delay(1000).playOn(findViewById(R.id.layout21));</i></b>
 <br><br>
 this code will make animation 1000 mili sec after execution of this code.<br>
 <br>
 <b>You can also change the slide length of the animation</b>
 for those animation who also have slide effects(i.e. sliding from 1 position of screen to others ) you can adjust its sliding length(by defauly length is set to 1000dp).<br>for this just add this --> ".slideLength(500)"  500 refers to 500dp.<br><br>
 it will look like this --><br><br>
-<b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).delay(1000).slideLength(500).playOn(findViewById(R.id.layout21));</b><br><br>
+<b><i>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).delay(1000).slideLength(500).playOn(findViewById(R.id.layout21));</i></b><br><br>
 <h3>How to change animation type></h3>
 you can replace "BounceInDown" given in the code with these animation--><br><br>
 e.g. --> SmartAnimation.with(AnimationType.ShakeBand).duration(1000).playOn(findViewById(R.id.layout21));<br><br>
