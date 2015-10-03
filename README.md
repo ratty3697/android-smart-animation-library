@@ -22,10 +22,10 @@ click on FIRST gradle file (build.gradle) highlighted in yellow.<br>
 <img src="http://udharimanager.in/first.PNG"><br>
 then replace your allprojects columb with this code --><br>
 <br>
-allprojects {
-    repositories {
-        jcenter()
-        maven { url "https://jitpack.io" }
+allprojects {<br>
+    repositories {<br>
+        jcenter()<br>
+        maven { url "https://jitpack.io" }<br>
     }
 }
 
