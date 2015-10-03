@@ -1,10 +1,10 @@
 package com.podcopic.animationlib.library.special.in;
 
 import android.view.View;
-import com.daimajia.easing.Glider;
-import com.daimajia.easing.Skill;
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.podcopic.animationlib.library.BaseViewAnimator;
+import com.podcopic.animationlib.library.Glider;
+import com.podcopic.animationlib.library.Skill;
 
 public class DropOut extends BaseViewAnimator {
     @Override

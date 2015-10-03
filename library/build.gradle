@@ -28,7 +28,7 @@ dependencies {
 
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.daimajia.easing:library:1.0.0@aar'
+
 }
 
 apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
