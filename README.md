@@ -41,11 +41,28 @@ You can animate anything like --> textview , edittext ,linearlayout ,relativelay
 suppose my LinearLayout id is "layout21"<br>
 then to animate simply add this code  when you want to animate--><br>
 <br>
-<b>SmartAnimation.with(AnimationType.Bounce).duration(1000).playOn(findViewById(R.id.layout21));</b>
+<b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).playOn(findViewById(R.id.layout21));</b>
 <br><br>
 where ---> ".duration(1000)" refers that animation will occour for 1000 mili seconds.<br>
            "Bounce" refers animation should be of bounce type You can use any type of animation code listed below.<br>
-           ".playOn(findViewById(R.id.layout21)" refers playing animation on the element of this id.        
+           ".playOn(findViewById(R.id.layout21)" refers playing animation on the element of this id = "layout21".<br>
+           
+<br>
+To make delay in animation just add .delay(1000) --> which refers to 1000 mili seconds delay<br>
+code will look like -->
+<br><br>
+<b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).delay(1000).playOn(findViewById(R.id.layout21));</b>
+<br><br>
+this code will make animation 1000 mili sec after execution of this code.<br>
+<br>
+<b>You can also change the slide length of the animation</b>
+for those animation who also have slide effects(i.e. sliding from 1 position of screen to others ) you can adjust its sliding length(by defauly length is set to 1000dp).<br>for this just add this --> ".slideLength(500)"  500 refers to 500dp.<br><br>
+it will look like this --><br><br>
+<b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).delay(1000).slideLength(500).playOn(findViewById(R.id.layout21));</b>
+
+
+
+
 
  
 
