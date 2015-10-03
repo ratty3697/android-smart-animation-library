@@ -11,11 +11,10 @@
 This is android library for adding smart animation in any element of android(i.e. TextView , EditText ,LinearLayout etc...and everything ;)  )
 
 Features --><br>
-1.)You can select any animation listed below on any element of endroid.<br>
-2.)you can set delay to animation acording to you.<br>
-3.)for the animation for moving animation(i.e. Sliding from one point to other). you can set sliding length acording to you and can also set delay  ;)<br>
-4.)for non moving animation(i.e. animating on one place only e.g.-> shaking). you can set delay.<br>
-5.)animation are already in diffrent thread so you dont have to add threads ...just simply add a single line of code and animation is done :D<br>
+1.)You can select any animation listed below on any element of android.<br>
+2.)you can set delay to any animation acording to your need (by default it is 0).<br>
+3.)for moving animation(i.e. Sliding from one point to other). you can set sliding length acording to you  ;)<br>
+4.)animation are already in diffrent thread so you dont have to add threads ...just simply add a single line of code and animation is done :D<br>
 
 <h1>How to Import this Library in Your Android studio Project?</h1>
 step1 --><br>
