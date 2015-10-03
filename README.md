@@ -6,9 +6,9 @@
     <img src="http://udharimanager.in/a4.png.gif" height="250" width="125" />
 </div>
 
-this library is drived from nineoldandroid library
+**This Library Contains <b>63</b> beautiful different Animations for android
 
-This is android library for adding smart animation in its any element (i.e. TextView , EditText ,LinearLayout etc...and everything ;)  )
+This is android library for adding smart animation in any element of android(i.e. TextView , EditText ,LinearLayout etc...and everything ;)  )
 
 Features --><br>
 1.)You can select any animation listed below on any element of endroid.<br>
@@ -43,9 +43,9 @@ then to animate simply add this code  when you want to animate--><br>
 <br>
 <b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).playOn(findViewById(R.id.layout21));</b>
 <br><br>
-where ---> ".duration(1000)" refers that animation will occour for 1000 mili seconds.<br>
-           "BounceInDown" refers animation should be of bounce in down type You can use any type of animation code <b>listed below</b>.<br>
-           ".playOn(findViewById(R.id.layout21)" refers playing animation on the element of this id = "layout21".<br>
+where ---> <br>".duration(1000)" refers that animation will occour for 1000 mili seconds.<br><br>
+           "BounceInDown" refers animation should be of bounce in down type You can use any type of animation code <b>listed below</b>.<br><br>
+           ".playOn(findViewById(R.id.layout21)" refers playing animation on the element of this id = "layout21".<br><br>
            
 <br>
 To make delay in animation just add ".delay(1000)" --> which refers to 1000 mili seconds delay<br>
@@ -85,7 +85,17 @@ e.g. --> SmartAnimation.with(AnimationType.ShakeBand).duration(1000).playOn(find
 20.)FlipOutX<br>
 21.)FlipOutY<br>
 22.)RotateIn<br>
-23.) RotateInDownLeft<br>
+23.)RotateInDownLeft<br>
+24.)RotateInDownRight<br>
+25.)RotateInUpLeft<br>
+26.)RotateInUpRight<br>
+27.)RotateOut<br>
+28.)RotateOutDownLeft<br>
+29.)RotateOutDownRight<br>
+30.)RotateOutUpLeft<br>
+31.)RotateOutUpRight<br>
+32.)ZoomIn<br>
+33.)ZoomOut<br>
 <br>
 <b>Sliding type animation(i.e. in which ".slideLength()" can be used)</b><br>
 1.)DropOut<br>
@@ -103,6 +113,22 @@ e.g. --> SmartAnimation.with(AnimationType.ShakeBand).duration(1000).playOn(find
 12.)FadeOutDown<br>
 13.)FadeOutRight<br>
 14.)FadeOutLeft<br>
+15.)SlideInLeft<br>
+16.)SlideInUp<br>
+17.)SlideInDown<br>
+18.)SlideInRight<br>
+19.)SlideOutLeft<br>
+20.)SlideOutUp<br>
+21.)SlideOutDown<br>
+22.)SlideOutRight<br>
+23.)ZoomInDown<br>
+24.)ZoomInLeft<br>
+25.)ZoomInRight<br>
+26.)ZoomInUp<br>
+27.)ZoomOutDown<br>
+28.)ZoomOutLeft<br>
+29.)ZoomOutRight<br>
+30.)ZoomOutUp<br>
 
 
 
