@@ -32,6 +32,13 @@ now in this file add this code in dependencies block<br><br>
 compile 'com.github.ratty3697:android-smart-animation-library:d0223c31f7ef4d33e1fc9e926b6c28ffe4e8f694'<br><br>
 it should look like this --><br>
 <img src="http://udharimanager.in/code2gradle.PNG"><br>
+Now build your Project<br>
+if build successfull appeared then everything is done ;)<br>
+<br>
+<h2>How to use this library</h2><br>
+Now this is SIMPLIEST part<br>
+
+ 
 
 
 
