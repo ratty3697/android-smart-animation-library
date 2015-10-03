@@ -3,7 +3,7 @@ this library is drived from nineoldandroid library
 
 This is android library for adding smart animation in its any element (i.e. TextView , EditText ,LinearLayout etc...and everything ;)  )
 
-Features -->
+Features --><br>
 1.)You can select any animation listed below on any element of endroid.
 2.)you can set delay to animation acording to you.
 3.)for the animation for moving animation(i.e. Sliding from one point to other). you can set sliding length acording to you and can also set delay  ;)
