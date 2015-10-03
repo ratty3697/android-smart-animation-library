@@ -23,10 +23,10 @@ click on FIRST gradle file (build.gradle) highlighted in yellow.<br>
 then replace your allprojects columb with this code --><br>
 <br>
 allprojects {<br>
-    <t>repositories {<br>
-        <t><t>jcenter()<br>
-        <t><t>maven { url "https://jitpack.io" }<br>
-    <t>}
+        repositories {<br>
+                jcenter()<br>
+                maven { url "https://jitpack.io" }<br>
+        }
 }
 
 
