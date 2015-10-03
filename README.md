@@ -44,11 +44,11 @@ then to animate simply add this code  when you want to animate--><br>
 <b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).playOn(findViewById(R.id.layout21));</b>
 <br><br>
 where ---> ".duration(1000)" refers that animation will occour for 1000 mili seconds.<br>
-           "Bounce" refers animation should be of bounce type You can use any type of animation code listed below.<br>
+           "BounceInDown" refers animation should be of bounce in down type You can use any type of animation code <b>listed below</b>.<br>
            ".playOn(findViewById(R.id.layout21)" refers playing animation on the element of this id = "layout21".<br>
            
 <br>
-To make delay in animation just add .delay(1000) --> which refers to 1000 mili seconds delay<br>
+To make delay in animation just add ".delay(1000)" --> which refers to 1000 mili seconds delay<br>
 code will look like -->
 <br><br>
 <b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).delay(1000).playOn(findViewById(R.id.layout21));</b>
