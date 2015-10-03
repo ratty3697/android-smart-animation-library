@@ -35,9 +35,14 @@ it should look like this --><br>
 Now build your Project<br>
 if build successfull appeared then everything is done ;)<br>
 <br>
-<h2>How to use this library</h2><br>
+<h2>How to use this library</h2>
 Now this is SIMPLIEST part<br>
-
+You can animate anything like --> textview , edittext ,linearlayout ,relativelayout ..etc and everythin present in android all you have to do is get its "id"<br>
+suppose my LinearLayout id is "layout21"<br>
+then to animate simply add this code  when you want to animate--><br>
+<br>
+<b>SmartAnimation.with(AnimationType.Bounce).duration(1000).playOn(findViewById(R.id.layout21));</b>
+<br><br>
  
 
 
