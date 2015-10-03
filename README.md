@@ -58,7 +58,52 @@ this code will make animation 1000 mili sec after execution of this code.<br>
 <b>You can also change the slide length of the animation</b>
 for those animation who also have slide effects(i.e. sliding from 1 position of screen to others ) you can adjust its sliding length(by defauly length is set to 1000dp).<br>for this just add this --> ".slideLength(500)"  500 refers to 500dp.<br><br>
 it will look like this --><br><br>
-<b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).delay(1000).slideLength(500).playOn(findViewById(R.id.layout21));</b>
+<b>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).delay(1000).slideLength(500).playOn(findViewById(R.id.layout21));</b><br><br>
+<h3>How to change animation type></h3>
+you can replace "BounceInDown" given in the code with these animation--><br><br>
+e.g. --> SmartAnimation.with(AnimationType.ShakeBand).duration(1000).playOn(findViewById(R.id.layout21));<br><br>
+<b>simple type animation</b><br>
+1.)ShakeBand<br>
+2.)TakingOff<br>
+3.)Flash<br>
+4.)Pulse<br>
+5.)RubberBand<br>
+6.)Landing<br>
+7.)Shake<br>
+8.)Swing<br>
+9.)Wobble<br>
+10.)Bounce<br>
+11.)Tada<br>
+12.)StandUp<br>
+13.)Wave<br>
+14.)Hinge<br>
+15.)BounceIn<br>
+16.)FadeIn<br>
+17.)FadeOut<br>
+18.)FlipInX<br>
+19.)FlipInY<br>
+20.)FlipOutX<br>
+21.)FlipOutY<br>
+22.)RotateIn<br>
+23.) RotateInDownLeft<br>
+<br>
+<b>Sliding type animation(i.e. in which ".slideLength()" can be used)</b><br>
+1.)DropOut<br>
+2.)RollIn<br>
+3.)RollOut<br>
+4.)BounceInDown<br>
+5.)BounceInUp<br>
+5.)BounceInLeft<br>
+6.)BounceInRight<br>
+7.)FadeInUp<br>
+8.)FadeInDown<br>
+9.)FadeInRight<br>
+10.)FadeInLeft<br>
+11.)FadeOutUp<br>
+12.)FadeOutDown<br>
+13.)FadeOutRight<br>
+14.)FadeOutLeft<br>
+
 
 
 
