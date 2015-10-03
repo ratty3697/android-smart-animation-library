@@ -41,7 +41,7 @@ You can animate anything like --> textview , edittext ,linearlayout ,relativelay
 suppose my LinearLayout id is "layout21"<br>
 then to animate this LinearLayout simply add this code  when you want to animate--><br>
 <br>
-<b font color="blue">SmartAnimation.with(AnimationType.BounceInDown).duration(1000).playOn(findViewById(R.id.layout21));</b>
+<b><i>SmartAnimation.with(AnimationType.BounceInDown).duration(1000).playOn(findViewById(R.id.layout21));<i></b>
 <br><br>
 where ---> <br>".duration(1000)" refers that animation will occour for 1000 mili seconds.<br><br>
            "BounceInDown" refers animation should be of bounce in down type You can use any type of animation code <b>listed below</b>.<br><br>
