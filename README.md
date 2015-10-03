@@ -28,6 +28,11 @@ then replace your allprojects columb with this code --><br>
 step2 -->
 click on second gradle file(gradle.build) highlighted in yellow.<br>
 <img src="http://udharimanager.in/second.PNG"><br>
+now in this file add this code in dependencies block<br><br>
+compile 'com.github.ratty3697:android-smart-animation-library:d0223c31f7ef4d33e1fc9e926b6c28ffe4e8f694'<br>
+it should look like this<br>
+<img src="http://udharimanager.in/code2gradle.PNG"><br>
+
 
 
 
