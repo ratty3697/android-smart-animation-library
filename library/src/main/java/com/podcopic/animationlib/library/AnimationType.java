@@ -12,6 +12,7 @@ import com.podcopic.animationlib.library.attention.Swing;
 import com.podcopic.animationlib.library.attention.Tada;
 import com.podcopic.animationlib.library.attention.Wave;
 import com.podcopic.animationlib.library.attention.Wobble;
+import com.podcopic.animationlib.library.attention.ShakeBand;
 import com.podcopic.animationlib.library.bouncing_in.BounceIn;
 import com.podcopic.animationlib.library.bouncing_in.BounceInDown;
 import com.podcopic.animationlib.library.bouncing_in.BounceInLeft;
@@ -66,6 +67,7 @@ import com.podcopic.animationlib.library.special.RollOut;
 
 public enum AnimationType {
 
+    ShakeBand(ShakeBand.class),
     DropOut(DropOut.class),
     Landing(Landing.class),
     TakingOff(TakingOff.class),

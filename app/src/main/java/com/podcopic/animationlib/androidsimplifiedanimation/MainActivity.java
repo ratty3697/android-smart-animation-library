@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView v = (TextView) findViewById(R.id.text);
-        SmartAnimation.with(AnimationType.FlipInX)
-                .duration(2001)
+        SmartAnimation.with(AnimationType.ShakeBand)
+                .duration(1000)
                 .slideLength(400)
                 .playOn(findViewById(R.id.text));
     }
