@@ -1,6 +1,6 @@
 # android-smart-animation-library
 <div>
-    <img src="http://udharimanager.in/animation1.gif"  height="150" width="125" />
+    <img src="http://udharimanager.in/animation1.gif"  height="250" width="125" />
     <img src="http://udharimanager.in/a2.gif" height="250" width="125" />
     <img src="http://udharimanager.in/a3.gif" height="250" width="125" />
     <img src="http://udharimanager.in/a4.png.gif" height="250" width="125" />
@@ -18,7 +18,7 @@ Features --><br>
 5.)animation are already in diffrent thread so you dont have to add threads ...just simply add a single line of code and animation is done :D<br>
 
 <h1>How to Import this Library in Your Android studio Project?</h1>
-
+<img src="http://udharimanager.in/first.png">
 
 
 
