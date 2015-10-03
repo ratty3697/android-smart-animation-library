@@ -1,8 +1,5 @@
 
-<style>
-div img{ display: inline-block;}
 
-</style>
 
 # android-smart-animation-library
 this library is drived from nineoldandroid library
