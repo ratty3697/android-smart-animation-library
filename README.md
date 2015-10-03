@@ -21,7 +21,8 @@ Features --><br>
 step1 --><br>
 click on FIRST gradle file (build.gradle) highlighted in yellow.<br>
 <img src="http://udharimanager.in/first.PNG"><br>
-then replace your allprojects columb with this code --><br>
+In this file add this code in allprojects block --> maven { url "https://jitpack.io" }<br>
+It should look like this<br>
 <br>
 <img src="http://udharimanager.in/code1gradle.PNG"><br>
 
