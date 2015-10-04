@@ -37,8 +37,8 @@ it should look like this --><br>
 <u>NOTE</u>--> <b>In this file</b> <br>
 1.)"compileSdkVersion" should be greater than or equals to 23<br>
 2.)"buildToolsVersion" should be greater than or equals to 23.0.1<br>
-3.)"minSdkVersion" should be greater than or equal to 9
-4.)"targetSdkVersion" should be greater than or equal to 23
+3.)"minSdkVersion" should be greater than or equal to 9<br>
+4.)"targetSdkVersion" should be greater than or equal to 23<br>
 
 
 Now build your Project<br>
