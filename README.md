@@ -6,7 +6,7 @@
     <img src="http://udharimanager.in/a4.png.gif" height="250" width="125" />
 </div>
 For any query or suggestion mail me at --> programer.prabhat@gmail.com<br>
-If You prefer Youtube vedio Tutorial the follow this link--><br><br>
+If You prefer Youtube vedio Tutorial then follow this link--><br><br>
 https://www.youtube.com/watch?v=GqmpvIrFD7A&feature=youtu.be <br><br>
 
 **This Library Contains <b>63</b> beautiful different Animations for android
