@@ -20,7 +20,8 @@ Features --><br>
 step1 --><br>
 click on FIRST gradle file (build.gradle) highlighted in yellow.<br>
 <img src="http://udharimanager.in/first.PNG"><br>
-In this file add this code in "allprojects" block --> <br><br>
+In this file ,You will see "alprojects" block where "jcenter()" is included<br>
+add this line of code just below "jcenter()"--> <br><br>
 maven { url "https://jitpack.io" }<br><br>
 It should look like this --><br>
 <br>
