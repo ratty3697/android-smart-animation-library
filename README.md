@@ -33,7 +33,14 @@ click on second gradle file(gradle.build) highlighted in yellow.<br>
 now in this file add this code in dependencies block<br><br>
 compile 'com.github.ratty3697:android-smart-animation-library:d0223c31f7'<br><br>
 it should look like this --><br>
-<img src="http://udharimanager.in/code22gradle.PNG"><br>
+<img src="http://udharimanager.in/code22gradle.PNG"><br><br>
+<u>NOTE</u>--> <b>In this file</b> <br>
+1.)"compileSdkVersion" should be greater than or equals to 23<br>
+2.)"buildToolsVersion" should be greater than or equals to 23.0.1<br>
+3.)"minSdkVersion" should be greater than or equal to 9
+4.)"targetSdkVersion" should be greater than or equal to 23
+
+
 Now build your Project<br>
 if build successfull appeared then everything is done ;)<br>
 <br>
