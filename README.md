@@ -5,6 +5,9 @@
     <img src="http://udharimanager.in/a3.gif" height="250" width="125" />
     <img src="http://udharimanager.in/a4.png.gif" height="250" width="125" />
 </div>
+
+If you like this library then plz hit the star at the top right corner ;)
+
 For any query or suggestion mail me at --> programer.prabhat@gmail.com<br>
 If You prefer Youtube vedio Tutorial then follow this link--><br><br>
 https://www.youtube.com/watch?v=GqmpvIrFD7A&feature=youtu.be <br><br>
