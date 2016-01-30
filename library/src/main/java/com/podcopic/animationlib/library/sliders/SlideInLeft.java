@@ -8,11 +8,17 @@ import com.podcopic.animationlib.library.BaseViewAnimator;
 public class SlideInLeft extends BaseViewAnimator {
     @Override
     public void prepare(View target) {
-        ViewGroup parent = (ViewGroup)target.getParent();
+
         int distance = (int) mSlideLength;
+        final float horizontalCenter = mHorizontalCenter;
+        final float verticalCenter = mVerticalCenter;
+
         getAnimatorAgent().playTogether(
                 ObjectAnimator.ofFloat(target, "alpha", 1, 1),
-                ObjectAnimator.ofFloat(target,"translationX",-distance,0)
+                ObjectAnimator.ofFloat(target,"translationX",-distance,0),
+
+                ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),
+                ObjectAnimator.ofFloat(target, "pivotY", verticalCenter, verticalCenter)
         );
     }
 }
