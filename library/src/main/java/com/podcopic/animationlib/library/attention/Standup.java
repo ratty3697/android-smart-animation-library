@@ -8,6 +8,7 @@ import com.podcopic.animationlib.library.BaseViewAnimator;
 public class Standup extends BaseViewAnimator {
     @Override
     public void prepare(View target) {
+
         float x = (target.getWidth() - target.getPaddingLeft() - target.getPaddingRight())/2
                 + target.getPaddingLeft();
         float y = target.getHeight() - target.getPaddingBottom();

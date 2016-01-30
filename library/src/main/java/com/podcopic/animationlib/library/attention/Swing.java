@@ -8,8 +8,15 @@ import com.podcopic.animationlib.library.BaseViewAnimator;
 public class Swing extends BaseViewAnimator {
     @Override
     public void prepare(View target) {
+
+        final float horizontalCenter = mHorizontalCenter;
+        final float verticalCenter = mVerticalCenter;
+
         getAnimatorAgent().playTogether(
-                ObjectAnimator.ofFloat(target, "rotation", 0, 10, -10, 6, -6, 3, -3, 0)
+                ObjectAnimator.ofFloat(target, "rotation", 0, 10, -10, 6, -6, 3, -3, 0),
+
+                ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),
+                ObjectAnimator.ofFloat(target, "pivotY", verticalCenter, verticalCenter)
         );
     }
 }

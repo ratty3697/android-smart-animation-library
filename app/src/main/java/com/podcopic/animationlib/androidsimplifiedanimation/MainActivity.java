@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        StartSmartAnimation.startAnimation(findViewById(R.id.text) , AnimationType.FlipInX , 400);
+        StartSmartAnimation.startAnimation(findViewById(R.id.text) , AnimationType.Wobble , 2000);
 
     }
 

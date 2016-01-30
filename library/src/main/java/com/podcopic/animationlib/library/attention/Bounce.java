@@ -8,8 +8,16 @@ import com.podcopic.animationlib.library.BaseViewAnimator;
 public class Bounce extends BaseViewAnimator {
     @Override
     public void prepare(View target) {
+
+        final float horizontalCenter = mHorizontalCenter;
+        final float verticalCenter = mVerticalCenter;
+
+
         getAnimatorAgent().playTogether(
-                ObjectAnimator.ofFloat(target,"translationY",0,0,-30,0,-15,0,0)
+                ObjectAnimator.ofFloat(target,"translationY",0,0,-30,0,-15,0,0),
+
+                ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),
+                ObjectAnimator.ofFloat(target, "pivotY", verticalCenter, verticalCenter)
         );
     }
 }

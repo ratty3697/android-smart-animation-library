@@ -8,8 +8,15 @@ import com.podcopic.animationlib.library.BaseViewAnimator;
 public class Shake extends BaseViewAnimator {
     @Override
     public void prepare(View target) {
+
+        final float horizontalCenter = mHorizontalCenter;
+        final float verticalCenter = mVerticalCenter;
+
         getAnimatorAgent().playTogether(
-                ObjectAnimator.ofFloat(target, "translationX", 0, 25, -25, 25, -25,15, -15, 6, -6, 0)
+                ObjectAnimator.ofFloat(target, "translationX", 0, 25, -25, 25, -25,15, -15, 6, -6, 0),
+
+                ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),
+                ObjectAnimator.ofFloat(target, "pivotY", verticalCenter, verticalCenter)
         );
     }
 }
