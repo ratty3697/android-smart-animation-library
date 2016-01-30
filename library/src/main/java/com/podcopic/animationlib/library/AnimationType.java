@@ -51,6 +51,7 @@ import com.podcopic.animationlib.library.sliders.SlideOutLeft;
 import com.podcopic.animationlib.library.sliders.SlideOutRight;
 import com.podcopic.animationlib.library.sliders.SlideOutUp;
 import com.podcopic.animationlib.library.zoom_in.ZoomIn;
+import com.podcopic.animationlib.library.zoom_in.ZoomInRubberBand;
 import com.podcopic.animationlib.library.zoom_in.ZoomInDown;
 import com.podcopic.animationlib.library.zoom_in.ZoomInLeft;
 import com.podcopic.animationlib.library.zoom_in.ZoomInRight;
@@ -136,6 +137,7 @@ public enum AnimationType {
     ZoomInLeft(ZoomInLeft.class),
     ZoomInRight(ZoomInRight.class),
     ZoomInUp(ZoomInUp.class),
+    ZoomInRubberBand(ZoomInRubberBand.class),
 
     ZoomOut(ZoomOut.class),
     ZoomOutDown(ZoomOutDown.class),
