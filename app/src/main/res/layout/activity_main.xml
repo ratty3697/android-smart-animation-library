@@ -9,6 +9,8 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:textSize="25dp"
+        android:background="#ff4455"
+        android:padding="30dp"
         android:id="@+id/text"/>
 
 </RelativeLayout>

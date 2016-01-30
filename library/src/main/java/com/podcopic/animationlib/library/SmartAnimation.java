@@ -13,11 +13,15 @@ public class SmartAnimation {
 
     private static final long DURATION = BaseViewAnimator.DURATION;
     private static final int SlideLength = BaseViewAnimator.SlideLength;
+    private static final float HorizontalCenter = BaseViewAnimator.HorizontalCenter;
+    private static final float VerticalCenter = BaseViewAnimator.VerticalCenter;
     private static final long NO_DELAY = 0;
 
     private BaseViewAnimator animator;
     private long duration;
     private int slideLength;
+    private float horizontalCenter;
+    private float verticalCenter;
     private long delay;
     private Interpolator interpolator;
     private List<Animator.AnimatorListener> callbacks;
@@ -27,6 +31,8 @@ public class SmartAnimation {
         animator = animationComposer.animator;
         duration = animationComposer.duration;
         slideLength = animationComposer.slideLength;
+        horizontalCenter = animationComposer.horizontalCenter;
+        verticalCenter = animationComposer.verticalCenter;
         delay = animationComposer.delay;
         interpolator = animationComposer.interpolator;
         callbacks = animationComposer.callbacks;
@@ -63,6 +69,8 @@ public class SmartAnimation {
         private BaseViewAnimator animator;
         private long duration = DURATION;
         private int slideLength = SlideLength;
+        private float horizontalCenter = HorizontalCenter;
+        private float verticalCenter = VerticalCenter;
         private long delay = NO_DELAY;
         private Interpolator interpolator;
         private View target;
@@ -82,6 +90,16 @@ public class SmartAnimation {
 
         public AnimationComposer slideLength(int slideLength) {
             this.slideLength = slideLength;
+            return this;
+        }
+
+        public AnimationComposer horizontalCenter(float horizontalCenter) {
+            this.horizontalCenter = horizontalCenter;
+            return this;
+        }
+
+        public AnimationComposer verticalCenter(float verticalCenter) {
+            this.verticalCenter = verticalCenter;
             return this;
         }
 
@@ -174,6 +192,8 @@ public class SmartAnimation {
 
         animator.setDuration(duration)
                 .setSlideLength(slideLength)
+                .setHorizontalCenter(horizontalCenter)
+                .setVerticalCenter(verticalCenter)
                 .setInterpolator(interpolator)
                 .setStartDelay(delay);
         animator.setTarget(target);
