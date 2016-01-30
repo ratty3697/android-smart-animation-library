@@ -7,6 +7,8 @@ import com.podcopic.animationlib.library.BaseViewAnimator;
 public class RotateInDownLeft extends BaseViewAnimator {
     @Override
     public void prepare(View target) {
+
+
         float x = target.getPaddingLeft();
         float y = target.getHeight() - target.getPaddingBottom();
         getAnimatorAgent().playTogether(

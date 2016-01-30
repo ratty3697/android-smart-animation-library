@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        StartSmartAnimation.startAnimation(findViewById(R.id.text) , AnimationType.FlipInY , 2000);
+        StartSmartAnimation.startAnimation(findViewById(R.id.text) , AnimationType.RotateInUpLeft , 2000);
 
     }
 

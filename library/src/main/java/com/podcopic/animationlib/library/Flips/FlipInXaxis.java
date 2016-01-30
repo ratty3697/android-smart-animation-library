@@ -19,8 +19,6 @@ public class FlipInXaxis extends BaseViewAnimator {
 
                 ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),
                 ObjectAnimator.ofFloat(target, "pivotY", verticalCenter, verticalCenter)
-
-
         );
 
     }
