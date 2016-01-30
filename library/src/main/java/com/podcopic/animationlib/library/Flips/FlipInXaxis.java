@@ -13,7 +13,6 @@ public class FlipInXaxis extends BaseViewAnimator {
         final float horizontalCenter = mHorizontalCenter;
         final float verticalCenter = mVerticalCenter;
 
-
         getAnimatorAgent().playTogether(
                 ObjectAnimator.ofFloat(target, "rotationX", 90, -15, 15, 0),
                 ObjectAnimator.ofFloat(target, "alpha", 0.25f, 0.5f, 0.75f, 1),
