@@ -3,7 +3,7 @@
     <img src="http://www.hackingsimplified.com/front.gif"  height="250" width="125" />
     <img src="http://www.hackingsimplified.com/attention.gif" height="250" width="125" />
     <img src="http://www.hackingsimplified.com/bouncein.gif" height="250" width="125" />
-    <img src="http://udharimanager.in/a4.png.gif" height="250" width="125" />
+    <img src="http://www.hackingsimplified.com/zoomin.gif" height="250" width="125" />
 </div>
 
 If you like this library then plz hit the star at the top right corner ;)
