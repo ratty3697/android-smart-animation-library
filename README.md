@@ -1,9 +1,9 @@
 # android-smart-animation-library
 <div>
-    <img src="http://udharimanager.in/animation1.gif"  height="250" width="125" />
-    <img src="http://udharimanager.in/a2.gif" height="250" width="125" />
-    <img src="http://udharimanager.in/a3.gif" height="250" width="125" />
-    <img src="http://udharimanager.in/a4.png.gif" height="250" width="125" />
+    <img src="http://www.hackingsimplified.com/front.gif"  height="250" width="125" />
+    <img src="http://www.hackingsimplified.com/attention.gif" height="250" width="125" />
+    <img src="http://www.hackingsimplified.com/bouncein.gif" height="250" width="125" />
+    <img src="http://www.hackingsimplified.com/zoomin.gif" height="250" width="125" />
 </div>
 
 If you like this library then plz hit the star at the top right corner ;)
@@ -12,7 +12,7 @@ For any query or suggestion mail me at --> programer.prabhat@gmail.com<br>
 If You prefer Youtube vedio Tutorial then follow this link--><br><br>
 https://www.youtube.com/watch?v=GqmpvIrFD7A&feature=youtu.be <br><br>
 
-**This Library Contains <b>63</b> beautiful different Animations for android
+**This Library Contains <b>64</b> beautiful different Animations for android
 
 This is android library for adding smart animation in any element of android(i.e. TextView , EditText ,LinearLayout etc...and everything ;)  )
 
