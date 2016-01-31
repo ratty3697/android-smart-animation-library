@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.podcopic.animationlib.androidsimplifiedanimation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Views.AttentionView"
+            android:label="Attention"/>
+        <activity android:name=".Views.BounceInView"
+            android:label="Bounce In"/>
+        <activity android:name=".Views.FadeInView"
+            android:label="Fade In"/>
+        <activity android:name=".Views.FadeOutView"
+            android:label="Fade Out"/>
+        <activity android:name=".Views.FlipView"
+            android:label="Flips"/>
+        <activity android:name=".Views.RotationInView"
+            android:label="Rotation In"/>
+        <activity android:name=".Views.RotationOutView"
+            android:label="Rotation Out" />
+        <activity android:name=".Views.SlidersView"
+            android:label="Sliders"/>
+        <activity android:name=".Views.SpecialView"
+            android:label="Special"/>
+        <activity android:name=".Views.ZoomInView"
+            android:label="Zoom In"/>
+        <activity android:name=".Views.ZoomOutView"
+            android:label="Zoom Out"></activity>
+    </application>
+
+</manifest>
