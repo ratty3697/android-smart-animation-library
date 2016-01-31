@@ -1,5 +1,6 @@
 package com.podcopic.animationlib.library;
 
+import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
@@ -12,6 +13,7 @@ public class StartSmartAnimation {
     this function creates animation with duration
      */
     public static void startAnimation(final View v , final AnimationType tech , final long duration){
+
         if(v.getWidth() == 0 || v.getHeight() == 0){//if view is just initialized for first time
             v.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
                 @Override
