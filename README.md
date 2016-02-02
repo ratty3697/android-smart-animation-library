@@ -9,8 +9,7 @@
 If you like this library then plz hit the star at the top right corner ;)
 
 For any query or suggestion mail me at --> programer.prabhat@gmail.com<br>
-If You prefer Youtube vedio Tutorial then follow this link--><br><br>
-https://www.youtube.com/watch?v=GqmpvIrFD7A&feature=youtu.be <br><br>
+
 
 **This Library Contains <b>64</b> beautiful different Animations for android
 
@@ -41,7 +40,7 @@ click on second(app's gradle file) gradle file(gradle.build) highlighted in yell
 now in this file add this code in dependencies block<br><br>
 <b><i>compile 'com.github.ratty3697.android-smart-animation-library:library:1.3'</i></b><br><br>
 it should look like this --><br>
-<img src="http://hackingsimplified.com/ex4.PNG"><br><br>
+<img src="http://hackingsimplified.com/ex5.PNG"><br><br>
 <u>NOTE</u>--> <b>In this file</b> <br>
 
 1.)"compileSdkVersion" should be greater than or equals to 23<br>
