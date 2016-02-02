@@ -61,19 +61,16 @@ then to animate this LinearLayout simply add this code  when you want to animate
 <br>
 <b><i>StartSmartAnimation.startAnimation(findViewById(R.id.attention), AnimationType.BounceInDown, 2000,0,true);</i></b>
 <br><br>
-where ---> <br>where --> 1st parameter is view to whom we want to animate <br> 2nd paramenter is defining animation (you can get list of different animation at the bottom of page)<br>3rd parameter is animation duration in mili secind<br> 4th parameter is delay before animation in mili second<br> 5th parameter is boolean variable to enable/ddisable fading effect in animation.<br> <br><br>
-           "BounceInDown" refers animation should be of bounce in down type You can use any type of animation code <b>listed below</b>.<br><br>
+<br>where --><br>   1st parameter is view to whom we want to animate <br>   2nd paramenter is defining animation (you can get list of different animation at the bottom of page)<br>  3rd parameter is animation duration in mili secind<br>  4th parameter is delay before animation in mili second<br>    5th parameter is boolean variable to enable/disable fading effect in animation.<br> <br><br>
+           "BounceInDown" refers animation should be of bounce in down type You can use any type of animation code <b>listed below</b>.<br>
           
-           
-<br>
-<br>
 <b>You can also change the slide length of the animation</b>
 for those animation who also have slide effects(i.e. sliding from 1 position of screen to others ) you can adjust its sliding length(by default length is set to 1000 dp).<br>for this just add another int variable for slide length(in dp) <br><br>
 it will look like this --><br><br>
 <b><i>StartSmartAnimation.startAnimation(findViewById(R.id.attention), AnimationType.BounceInDown, 2000,0,true,300);</i></b><br><br>
 <h3>How to change animation type></h3>
 you can replace "BounceInDown" given in the code with these animation--><br><br>
-e.g. --> SmartAnimation.with(AnimationType.ShakeBand).duration(1000).playOn(findViewById(R.id.layout21));<br><br>
+e.g. --> StartSmartAnimation.startAnimation(findViewById(R.id.attention), AnimationType.ShakeBand, 2000,0,true);<br><br>
 <b>simple type animation</b><br>
 1.)ShakeBand<br>
 2.)TakingOff<br>
@@ -107,7 +104,8 @@ e.g. --> SmartAnimation.with(AnimationType.ShakeBand).duration(1000).playOn(find
 30.)RotateOutUpLeft<br>
 31.)RotateOutUpRight<br>
 32.)ZoomIn<br>
-33.)ZoomOut<br>
+33.)ZoomInRubberBand<br>
+34.)ZoomOut<br>
 <br>
 <b>Sliding type animation(i.e. in which ".slideLength()" can be used)</b><br>
 1.)DropOut<br>
