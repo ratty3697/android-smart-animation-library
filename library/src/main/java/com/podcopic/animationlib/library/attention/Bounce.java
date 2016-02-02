@@ -13,6 +13,7 @@ public class Bounce extends BaseViewAnimator {
         final float verticalCenter = mVerticalCenter;
         final int startingAlpha;
 
+
         if(mAlpha){
             startingAlpha = 0;
         }
