@@ -14,10 +14,10 @@ https://www.youtube.com/watch?v=GqmpvIrFD7A&feature=youtu.be <br><br>
 
 **This Library Contains <b>64</b> beautiful different Animations for android
 
-This is android library for adding smart animation in any element of android(i.e. TextView , EditText ,LinearLayout etc...and everything ;)  )
+This is android library for adding smart animation in any view of android(i.e. TextView , EditText ,LinearLayout etc...and everything ;)  )
 
 Features --><br>
-1.)You can select any animation listed below on any element of android.<br>
+1.)You can select any animation listed below on any view of android.<br>
 2.)you can set delay in ms to any animation acording to your need .<br>
 3.)for moving animation(i.e. Sliding from one point to other). you can set sliding length acording to you by default it is 1000 dp  ;)<br>
 4.)you can set duration of animation in ms.<br>
@@ -39,7 +39,7 @@ step2 -->
 click on second(app's gradle file) gradle file(gradle.build) highlighted in yellow.<br>
 <img src="http://hackingsimplified.com/ex3.PNG"><br>
 now in this file add this code in dependencies block<br><br>
-compile 'com.github.ratty3697.android-smart-animation-library:library:1.3'<br><br>
+<b><i>compile 'com.github.ratty3697.android-smart-animation-library:library:1.3'</i></b><br><br>
 it should look like this --><br>
 <img src="http://hackingsimplified.com/ex4.PNG"><br><br>
 <u>NOTE</u>--> <b>In this file</b> <br>
