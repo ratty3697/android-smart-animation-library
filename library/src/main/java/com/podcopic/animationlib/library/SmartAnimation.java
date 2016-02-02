@@ -13,6 +13,7 @@ public class SmartAnimation {
 
     private static final long DURATION = BaseViewAnimator.DURATION;
     private static final int SlideLength = BaseViewAnimator.SlideLength;
+    private static final boolean Alpha = BaseViewAnimator.Alpha;
     private static final float HorizontalCenter = BaseViewAnimator.HorizontalCenter;
     private static final float VerticalCenter = BaseViewAnimator.VerticalCenter;
     private static final long NO_DELAY = 0;
@@ -20,6 +21,7 @@ public class SmartAnimation {
     private BaseViewAnimator animator;
     private long duration;
     private int slideLength;
+    private boolean alpha;
     private float horizontalCenter;
     private float verticalCenter;
     private long delay;
@@ -31,6 +33,7 @@ public class SmartAnimation {
         animator = animationComposer.animator;
         duration = animationComposer.duration;
         slideLength = animationComposer.slideLength;
+        alpha = animationComposer.alpha;
         horizontalCenter = animationComposer.horizontalCenter;
         verticalCenter = animationComposer.verticalCenter;
         delay = animationComposer.delay;
@@ -69,6 +72,7 @@ public class SmartAnimation {
         private BaseViewAnimator animator;
         private long duration = DURATION;
         private int slideLength = SlideLength;
+        private boolean alpha = Alpha;
         private float horizontalCenter = HorizontalCenter;
         private float verticalCenter = VerticalCenter;
         private long delay = NO_DELAY;
@@ -90,6 +94,11 @@ public class SmartAnimation {
 
         public AnimationComposer slideLength(int slideLength) {
             this.slideLength = slideLength;
+            return this;
+        }
+
+        public AnimationComposer alpha(boolean alpha) {
+            this.alpha = alpha;
             return this;
         }
 
@@ -192,6 +201,7 @@ public class SmartAnimation {
 
         animator.setDuration(duration)
                 .setSlideLength(slideLength)
+                .setAlpha(alpha)
                 .setHorizontalCenter(horizontalCenter)
                 .setVerticalCenter(verticalCenter)
                 .setInterpolator(interpolator)

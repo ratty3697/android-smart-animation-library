@@ -19,19 +19,19 @@ public class ZoomOutView extends AppCompatActivity {
     public void animationStart(View v){
 
         if(v.getId() == (R.id.zoom_out)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOut, 2000);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOut, 2000 ,0 , true);
         }
         else if(v.getId() == (R.id.zoom_out_down)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOutDown, 2000 , 0 , 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOutDown, 2000 , 0 ,true ,100);
         }
         else if(v.getId() == (R.id.zoom_out_left)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOutLeft, 2000 , 0 , 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOutLeft, 2000 , 0 ,true ,100);
         }
         else if(v.getId() == (R.id.zoom_out_right)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOutRight, 2000 , 0 , 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOutRight, 2000 , 0 ,true ,100);
         }
         else if(v.getId() == (R.id.zoom_out_up)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOutUp, 2000 , 0 , 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomOutUp, 2000 , 0 , true ,100);
         }
     }
 

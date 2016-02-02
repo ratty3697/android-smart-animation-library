@@ -7,6 +7,15 @@ import com.podcopic.animationlib.library.BaseViewAnimator;
 public class RotateOutUpLeft extends BaseViewAnimator {
     @Override
     public void prepare(View target) {
+        final int startingAlpha;
+
+        if(mAlpha){
+            startingAlpha = 0;
+        }
+        else {
+            startingAlpha = 1;
+        }
+
         float x = target.getPaddingLeft();
         float y = target.getHeight() - target.getPaddingBottom();
         getAnimatorAgent().playTogether(

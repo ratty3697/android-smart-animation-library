@@ -12,6 +12,7 @@ public abstract class BaseViewAnimator {
 
     public static final long DURATION = 1000;
     public static final int SlideLength = 1000;
+    public static final boolean Alpha = false;
     public static final float HorizontalCenter = 0;
     public static final float VerticalCenter = 0;
 
@@ -21,6 +22,7 @@ public abstract class BaseViewAnimator {
     private AnimatorSet mAnimatorSet;
     public long mDuration = DURATION;
     public long mSlideLength = SlideLength;
+    public boolean mAlpha = Alpha;
 
     {
         mAnimatorSet = new AnimatorSet();
@@ -80,6 +82,12 @@ public abstract class BaseViewAnimator {
         mSlideLength = slideLength;
         return this;
     }
+
+    public BaseViewAnimator setAlpha(boolean alpha) {
+        mAlpha = alpha;
+        return this;
+    }
+
 
     public BaseViewAnimator setHorizontalCenter(float horizontalCenter) {
         mHorizontalCenter = horizontalCenter;

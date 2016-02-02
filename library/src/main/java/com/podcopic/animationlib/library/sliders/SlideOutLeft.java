@@ -13,9 +13,17 @@ public class SlideOutLeft extends BaseViewAnimator {
         final float horizontalCenter = mHorizontalCenter;
         final float verticalCenter = mVerticalCenter;
         int distance = (int) mSlideLength;
+        final int startingAlpha;
+
+        if(mAlpha){
+            startingAlpha = 0;
+        }
+        else {
+            startingAlpha = 1;
+        }
 
         getAnimatorAgent().playTogether(
-                ObjectAnimator.ofFloat(target, "alpha", 1, 1),
+                ObjectAnimator.ofFloat(target, "alpha", 1, startingAlpha),
                 ObjectAnimator.ofFloat(target,"translationX",0,-distance),
 
                 ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),

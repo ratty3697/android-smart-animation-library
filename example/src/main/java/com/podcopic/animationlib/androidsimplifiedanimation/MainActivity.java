@@ -34,16 +34,17 @@ public class MainActivity extends AppCompatActivity {
         this is for making a front page nimation
          */
 
-        StartSmartAnimation.startAnimation(findViewById(R.id.attention), AnimationType.FlipInY, 2000);
-        StartSmartAnimation.startAnimation(findViewById(R.id.bounce_in), AnimationType.FlipInY, 2000,200);
-        StartSmartAnimation.startAnimation(findViewById(R.id.fade_in), AnimationType.FlipInY, 2000,400);
-        StartSmartAnimation.startAnimation(findViewById(R.id.fade_out), AnimationType.FlipInY, 2000,600);
-        StartSmartAnimation.startAnimation(findViewById(R.id.flips), AnimationType.FlipInY, 2000,800);
-        StartSmartAnimation.startAnimation(findViewById(R.id.rotation_in), AnimationType.FlipInY, 2000,1000);
-        StartSmartAnimation.startAnimation(findViewById(R.id.rotation_out), AnimationType.FlipInY, 2000,1200);
-        StartSmartAnimation.startAnimation(findViewById(R.id.sliders), AnimationType.FlipInY, 2000,1400);
-        StartSmartAnimation.startAnimation(findViewById(R.id.zoom_in), AnimationType.FlipInY, 2000,1600);
-        StartSmartAnimation.startAnimation(findViewById(R.id.zoom_out), AnimationType.FlipInY, 2000,1800);
+        StartSmartAnimation.startAnimation(findViewById(R.id.attention), AnimationType.FlipInY, 2000,0,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.bounce_in), AnimationType.FlipInY, 2000,200,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.fade_in), AnimationType.FlipInY, 2000,400,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.fade_out), AnimationType.FlipInY, 2000,600,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.flips), AnimationType.FlipInY, 2000,800,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.rotation_in), AnimationType.FlipInY, 2000,1000,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.rotation_out), AnimationType.FlipInY, 2000,1200,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.sliders), AnimationType.FlipInY, 2000,1400,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.special), AnimationType.FlipInY, 2000,1600,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.zoom_in), AnimationType.FlipInY, 2000,1800,true);
+        StartSmartAnimation.startAnimation(findViewById(R.id.zoom_out), AnimationType.FlipInY, 2000,2000,true);
 
     }
 

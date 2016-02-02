@@ -10,8 +10,17 @@ public class ZoomInUp extends BaseViewAnimator {
     public void prepare(View target) {
         ViewGroup parent = (ViewGroup)target.getParent();
         int distance = (int) mSlideLength;
+        final int startingAlpha;
+
+        if(mAlpha){
+            startingAlpha = 0;
+        }
+        else {
+            startingAlpha = 1;
+        }
+
         getAnimatorAgent().playTogether(
-                ObjectAnimator.ofFloat(target,"alpha",0,1,1),
+                ObjectAnimator.ofFloat(target,"alpha",startingAlpha,1,1),
                 ObjectAnimator.ofFloat(target,"scaleX",0.1f,0.475f,1),
                 ObjectAnimator.ofFloat(target,"scaleY",0.1f,0.475f,1),
                 ObjectAnimator.ofFloat(target,"translationY",distance,-60,0)

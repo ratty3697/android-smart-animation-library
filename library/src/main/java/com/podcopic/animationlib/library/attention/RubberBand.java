@@ -11,10 +11,19 @@ public class RubberBand extends BaseViewAnimator {
 
         final float horizontalCenter = mHorizontalCenter;
         final float verticalCenter = mVerticalCenter;
+        final int startingAlpha;
+
+        if(mAlpha){
+            startingAlpha = 0;
+        }
+        else {
+            startingAlpha = 1;
+        }
 
         getAnimatorAgent().playTogether(
                 ObjectAnimator.ofFloat(target, "scaleX", 1, 1.25f, 0.75f, 1.15f, 1),
                 ObjectAnimator.ofFloat(target, "scaleY", 1, 0.75f, 1.25f, 0.85f, 1),
+                ObjectAnimator.ofFloat(target,"alpha",startingAlpha,1),
 
                 ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),
                 ObjectAnimator.ofFloat(target, "pivotY", verticalCenter, verticalCenter)

@@ -19,19 +19,19 @@ public class RotationInView extends AppCompatActivity {
     public void animationStart(View v){
 
         if(v.getId() == (R.id.rotate_in)){
-            StartSmartAnimation.startAnimation(v, AnimationType.RotateIn, 1000, 0, 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.RotateIn, 1000, 0,false ,100);
         }
         else if(v.getId() == (R.id.rotate_in_down_left)){
-            StartSmartAnimation.startAnimation(v, AnimationType.RotateInDownLeft, 1000,0,100);
+            StartSmartAnimation.startAnimation(v, AnimationType.RotateInDownLeft, 1000,0,false,100);
         }
         else if(v.getId() == (R.id.rotate_in_down_right)){
-            StartSmartAnimation.startAnimation(v, AnimationType.RotateInDownRight, 1000,0,100);
+            StartSmartAnimation.startAnimation(v, AnimationType.RotateInDownRight, 1000,0,false,100);
         }
         else if(v.getId() == (R.id.rotate_in_up_left)){
-            StartSmartAnimation.startAnimation(v, AnimationType.RotateInUpLeft, 1000,0,100);
+            StartSmartAnimation.startAnimation(v, AnimationType.RotateInUpLeft, 1000,0,false,100);
         }
         else if(v.getId() == (R.id.rotate_in_up_right)){
-            StartSmartAnimation.startAnimation(v, AnimationType.RotateInUpRight, 1000,0,100);
+            StartSmartAnimation.startAnimation(v, AnimationType.RotateInUpRight, 1000,0,false,100);
         }
 
     }

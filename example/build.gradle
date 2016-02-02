@@ -25,5 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.nineoldandroids:library:2.4.0'
     compile project(':library')
-    //compile 'com.github.ratty3697:android-smart-animation-library:1.0'
+    //compile 'com.github.ratty3697:android-smart-animation-library:1.1'
 }

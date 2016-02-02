@@ -10,10 +10,18 @@ public class FlipOutYaxis extends BaseViewAnimator {
 
         final float horizontalCenter = mHorizontalCenter;
         final float verticalCenter = mVerticalCenter;
+        final int startingAlpha;
+
+        if(mAlpha){
+            startingAlpha = 0;
+        }
+        else {
+            startingAlpha = 1;
+        }
 
         getAnimatorAgent().playTogether(
                 ObjectAnimator.ofFloat(target, "rotationY", 0, 90),
-                ObjectAnimator.ofFloat(target, "alpha", 1, 0),
+                ObjectAnimator.ofFloat(target, "alpha", 1, startingAlpha),
 
                 ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),
                 ObjectAnimator.ofFloat(target, "pivotY", verticalCenter, verticalCenter)

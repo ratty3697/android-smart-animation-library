@@ -11,10 +11,18 @@ public class RotateIn extends BaseViewAnimator {
 
         final float horizontalCenter = mHorizontalCenter;
         final float verticalCenter = mVerticalCenter;
+        final int startingAlpha;
+
+        if(mAlpha){
+            startingAlpha = 0;
+        }
+        else {
+            startingAlpha = 1;
+        }
 
         getAnimatorAgent().playTogether(
                 ObjectAnimator.ofFloat(target, "rotation", -200, 0),
-                ObjectAnimator.ofFloat(target, "alpha", 0, 1),
+                ObjectAnimator.ofFloat(target, "alpha", startingAlpha, 1),
 
                 ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),
                 ObjectAnimator.ofFloat(target, "pivotY", verticalCenter, verticalCenter)

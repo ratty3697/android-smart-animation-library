@@ -10,6 +10,14 @@ public class RotateOut extends BaseViewAnimator {
 
         final float horizontalCenter = mHorizontalCenter;
         final float verticalCenter = mVerticalCenter;
+        final int startingAlpha;
+
+        if(mAlpha){
+            startingAlpha = 0;
+        }
+        else {
+            startingAlpha = 1;
+        }
 
         getAnimatorAgent().playTogether(
                 ObjectAnimator.ofFloat(target,"alpha",1,0),

@@ -19,22 +19,22 @@ public class ZoomInView extends AppCompatActivity {
     public void animationStart(View v){
 
         if(v.getId() == (R.id.zoom_in)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomIn, 2000);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomIn, 2000 , 0 , false);
         }
         else if(v.getId() == (R.id.zoom_in_down)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInDown, 2000 , 0 , 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInDown, 2000 , 0 , false ,100);
         }
         else if(v.getId() == (R.id.zoom_in_left)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInLeft, 2000 , 0 , 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInLeft, 2000 , 0 , false ,100);
         }
         else if(v.getId() == (R.id.zoom_in_right)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInRight, 2000 , 0 , 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInRight, 2000 , 0 , false ,100);
         }
         else if(v.getId() == (R.id.zoom_in_rubber_band)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInRubberBand, 2000 , 0 , 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInRubberBand, 2000 , 0 , false ,100);
         }
         else if(v.getId() == (R.id.zoom_in_up)){
-            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInUp, 2000 , 0 , 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.ZoomInUp, 2000 , 0 , false ,100);
         }
     }
 }

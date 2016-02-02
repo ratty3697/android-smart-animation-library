@@ -19,16 +19,16 @@ public class FlipView extends AppCompatActivity {
     public void animationStart(View v){
 
         if(v.getId() == (R.id.flip_in_x_axis)){
-            StartSmartAnimation.startAnimation(v, AnimationType.FlipInX, 1000);
+            StartSmartAnimation.startAnimation(v, AnimationType.FlipInX, 1000 , 0 ,false);
         }
         else if(v.getId() == (R.id.flip_in_y_axis)){
-            StartSmartAnimation.startAnimation(v, AnimationType.FlipInY, 1000);
+            StartSmartAnimation.startAnimation(v, AnimationType.FlipInY, 1000 , 0 , false);
         }
         else if(v.getId() == (R.id.flip_out_x_axis)){
-            StartSmartAnimation.startAnimation(v, AnimationType.FlipOutX, 1000);
+            StartSmartAnimation.startAnimation(v, AnimationType.FlipOutX, 1000 , 0 , true);
         }
         else if(v.getId() == (R.id.flip_out_y_axis)){
-            StartSmartAnimation.startAnimation(v, AnimationType.FlipOutY, 1000);
+            StartSmartAnimation.startAnimation(v, AnimationType.FlipOutY, 1000 , 0 ,true);
         }
 
 

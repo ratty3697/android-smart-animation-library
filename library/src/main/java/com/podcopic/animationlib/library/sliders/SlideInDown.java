@@ -13,10 +13,18 @@ public class SlideInDown extends BaseViewAnimator {
         int distance = (int) mSlideLength;
         final float horizontalCenter = mHorizontalCenter;
         final float verticalCenter = mVerticalCenter;
+        final int startingAlpha;
+
+        if(mAlpha){
+            startingAlpha = 0;
+        }
+        else {
+            startingAlpha = 1;
+        }
 
         Log.d("animationtest",""+distance+" "+target.getHeight()+" "+target.getTop());
         getAnimatorAgent().playTogether(
-                ObjectAnimator.ofFloat(target,"alpha",1,1),
+                ObjectAnimator.ofFloat(target,"alpha",startingAlpha,1),
                 ObjectAnimator.ofFloat(target,"translationY",-distance,0),
 
                 ObjectAnimator.ofFloat(target, "pivotX", horizontalCenter, horizontalCenter),

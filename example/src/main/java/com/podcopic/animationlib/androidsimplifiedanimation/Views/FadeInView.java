@@ -19,19 +19,19 @@ public class FadeInView extends AppCompatActivity {
     public void animationStart(View v){
 
         if(v.getId() == (R.id.fade_in)){
-            StartSmartAnimation.startAnimation(v, AnimationType.FadeIn, 1000, 0, 100);
+            StartSmartAnimation.startAnimation(v, AnimationType.FadeIn, 1000, 0,true, 100);
         }
         else if(v.getId() == (R.id.fade_in_down)){
-            StartSmartAnimation.startAnimation(v, AnimationType.FadeInDown, 1000,0,100);
+            StartSmartAnimation.startAnimation(v, AnimationType.FadeInDown, 1000,0,true,100);
         }
         else if(v.getId() == (R.id.fade_in_left)){
-            StartSmartAnimation.startAnimation(v, AnimationType.FadeInLeft, 1000,0,100);
+            StartSmartAnimation.startAnimation(v, AnimationType.FadeInLeft, 1000,0,true,100);
         }
         else if(v.getId() == (R.id.fade_in_right)){
-            StartSmartAnimation.startAnimation(v, AnimationType.FadeInRight, 1000,0,100);
+            StartSmartAnimation.startAnimation(v, AnimationType.FadeInRight, 1000,0,true,100);
         }
         else if(v.getId() == (R.id.fade_in_up)){
-            StartSmartAnimation.startAnimation(v, AnimationType.FadeInUp, 1000,0,100);
+            StartSmartAnimation.startAnimation(v, AnimationType.FadeInUp, 1000,0,true,100);
         }
 
     }
