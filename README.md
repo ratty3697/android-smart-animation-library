@@ -67,11 +67,11 @@ then to animate this LinearLayout simply add this code  when you want to animate
 <b>You can also change the slide length of the animation</b>
 for those animation who also have slide effects(i.e. sliding from 1 position of screen to others ) you can adjust its sliding length(by default length is set to 1000 dp).<br>for this just add another int variable for slide length(in dp) <br><br>
 it will look like this --><br><br>
-<b><i>StartSmartAnimation.startAnimation(findViewById(R.id.layout21), AnimationType.BounceInDown, 2000,0,true,300);</i></b><br><br>
+<b><i>StartSmartAnimation.startAnimation(findViewById(R.id.layout21), AnimationType.BounceInDown, 2000,0,true,300);</i></b><br>where <b>300</b> is 300 dp sliding length for animation.<br>
 <h3>How to change animation type></h3>
 you can replace "BounceInDown" given in the code with these animation--><br><br>
 e.g. --> StartSmartAnimation.startAnimation(findViewById(R.id.layout21), AnimationType.ShakeBand, 2000,0,true);<br><br>
-<b>simple type animation</b><br>
+<b>NON - sliding animation</b><br>
 1.)ShakeBand<br>
 2.)TakingOff<br>
 3.)Flash<br>
@@ -107,7 +107,7 @@ e.g. --> StartSmartAnimation.startAnimation(findViewById(R.id.layout21), Animati
 33.)ZoomInRubberBand<br>
 34.)ZoomOut<br>
 <br>
-<b>Sliding type animation(i.e. in which ".slideLength()" can be used)</b><br>
+<b>Sliding type animation</b><br>
 1.)DropOut<br>
 2.)RollIn<br>
 3.)RollOut<br>
