@@ -43,6 +43,7 @@ now in this file add this code in dependencies block<br><br>
 it should look like this --><br>
 <img src="http://hackingsimplified.com/ex4.PNG"><br><br>
 <u>NOTE</u>--> <b>In this file</b> <br>
+
 1.)"compileSdkVersion" should be greater than or equals to 23<br>
 2.)"buildToolsVersion" should be greater than or equals to 23.0.1<br>
 3.)"minSdkVersion" should be greater than or equal to 10<br>
