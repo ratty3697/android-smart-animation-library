@@ -18,28 +18,30 @@ This is android library for adding smart animation in any element of android(i.e
 
 Features --><br>
 1.)You can select any animation listed below on any element of android.<br>
-2.)you can set delay to any animation acording to your need (by default it is 0).<br>
-3.)for moving animation(i.e. Sliding from one point to other). you can set sliding length acording to you  ;)<br>
-4.)animation are already in diffrent thread so you dont have to add threads ...just simply add a single line of code and animation is done :D<br>
+2.)you can set delay in ms to any animation acording to your need .<br>
+3.)for moving animation(i.e. Sliding from one point to other). you can set sliding length acording to you by default it is 1000 dp  ;)<br>
+4.)you can set duration of animation in ms.<br>
+5.)you can control fading effect in animation using boolean variable.<br>
+6.)animation are already in diffrent thread so you dont have to add threads ...just simply add a single line of code and animation is done :D<br>
 
 <h1>How to Import this Library in Your Android studio Project?</h1>
 step1 --><br>
-click on FIRST gradle file (build.gradle) highlighted in yellow.<br>
-<img src="http://udharimanager.in/first.PNG"><br>
+click on FIRST(project's gradle file) gradle file (build.gradle) highlighted in yellow.<br>
+<img src="http://hackingsimplified.com/ex1.PNG"><br>
 In this file ,You will see "alprojects" block where "jcenter()" is included<br>
 add this line of code just below "jcenter()"--> <br><br>
 maven { url "https://jitpack.io" }<br><br>
 It should look like this --><br>
 <br>
-<img src="http://udharimanager.in/code1gradle.PNG"><br>
+<img src="http://hackingsimplified.com/ex2.PNG"><br>
 
 step2 -->
-click on second gradle file(gradle.build) highlighted in yellow.<br>
-<img src="http://udharimanager.in/second.PNG"><br>
+click on second(app's gradle file) gradle file(gradle.build) highlighted in yellow.<br>
+<img src="http://hackingsimplified.com/ex3.PNG"><br>
 now in this file add this code in dependencies block<br><br>
-compile 'com.github.ratty3697:android-smart-animation-library:d0223c31f7'<br><br>
+compile 'com.github.ratty3697.android-smart-animation-library:library:1.3'<br><br>
 it should look like this --><br>
-<img src="http://udharimanager.in/code22gradle.PNG"><br><br>
+<img src="http://hackingsimplified.com/ex4.PNG"><br><br>
 <u>NOTE</u>--> <b>In this file</b> <br>
 1.)"compileSdkVersion" should be greater than or equals to 23<br>
 2.)"buildToolsVersion" should be greater than or equals to 23.0.1<br>
