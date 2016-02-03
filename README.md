@@ -8,7 +8,9 @@
 
 If you like this library then plz hit the star at the top right corner ;)
 
-For any query or suggestion mail me at --> programer.prabhat@gmail.com<br>
+For any query or suggestion mail me at --> programer.prabhat@gmail.com<br><br>
+
+<b>You can Download sample app from google play store --></b>https://play.google.com/store/apps/details?id=com.podcopic.animationlib.androidsimplifiedanimation&hl=en<br><br>
 
 
 **This Library Contains <b>64</b> beautiful different Animations for android
