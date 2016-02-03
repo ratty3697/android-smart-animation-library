@@ -1,4 +1,7 @@
 # android-smart-animation-library
+
+this library is extended from -> http://www.github.com/JakeWharton/NineOldAndroids  && https://github.com/daimajia/AnimationEasingFunctions
+
 <div>
     <img src="http://www.hackingsimplified.com/front.gif"  height="250" width="125" />
     <img src="http://www.hackingsimplified.com/attention.gif" height="250" width="125" />
