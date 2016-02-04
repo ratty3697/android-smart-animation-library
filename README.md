@@ -1,4 +1,7 @@
 # android-smart-animation-library
+[![](https://jitpack.io/v/ratty3697/android-smart-animation-library.svg)](https://jitpack.io/#ratty3697/android-smart-animation-library)
+
+
 
 this library is extended from -> http://www.github.com/JakeWharton/NineOldAndroids  && https://github.com/daimajia/AnimationEasingFunctions && https://github.com/daimajia/AndroidViewAnimations
 
