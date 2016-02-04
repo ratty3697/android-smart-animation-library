@@ -1,5 +1,4 @@
 # android-smart-animation-library
-[![](https://jitpack.io/v/ratty3697/android-smart-animation-library.svg)](https://jitpack.io/#ratty3697/android-smart-animation-library)
 
 
 
