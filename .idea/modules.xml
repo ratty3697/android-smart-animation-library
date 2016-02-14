@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/animation-lib.iml" filepath="$PROJECT_DIR$/animation-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-smart-animation-library-newest.iml" filepath="$PROJECT_DIR$/android-smart-animation-library-newest.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>

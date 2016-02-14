@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         this is for making a front page nimation
          */
 
-        StartSmartAnimation.startAnimation(findViewById(R.id.attention), AnimationType.FlipInY, 2000,0,true);
-        StartSmartAnimation.startAnimation(findViewById(R.id.bounce_in), AnimationType.FlipInY, 2000,200,true);
+        new StartSmartAnimation().startAnimation(findViewById(R.id.attention), AnimationType.FlipInY, 2000, 0, true);
+        new StartSmartAnimation().startAnimation(findViewById(R.id.bounce_in), AnimationType.FlipInY, 2000, 200, true);
         StartSmartAnimation.startAnimation(findViewById(R.id.fade_in), AnimationType.FlipInY, 2000,400,true);
         StartSmartAnimation.startAnimation(findViewById(R.id.fade_out), AnimationType.FlipInY, 2000,600,true);
         StartSmartAnimation.startAnimation(findViewById(R.id.flips), AnimationType.FlipInY, 2000,800,true);

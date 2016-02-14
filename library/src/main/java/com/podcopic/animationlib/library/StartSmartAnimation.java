@@ -1,13 +1,20 @@
 package com.podcopic.animationlib.library;
 
-import android.util.Log;
+import android.os.Handler;
 import android.view.View;
-import android.view.ViewTreeObserver;
 
 /**
  * Created by hacker_ratty on 1/30/2016.
  */
 public class StartSmartAnimation {
+
+    static float w;
+    static float h;
+
+    public StartSmartAnimation(){
+
+    }
+
 
     /*
     this function creates animation with duration , delay , alpha
@@ -16,11 +23,14 @@ public class StartSmartAnimation {
                                       final long delay , final boolean alpha){
 
         if(v.getWidth() == 0 || v.getHeight() == 0){//if view is just initialized for first time
-            v.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            //delay is because view takes time to load its length
+            Handler delayHandler = new Handler();
+            delayHandler.postDelayed(new Runnable() {
                 @Override
-                public void onGlobalLayout() {
-                    final float w = v.getWidth() / 2.0f;
-                    final float h = v.getHeight() / 2.0f;
+                public void run() {
+                    w = v.getWidth() / 2.0f;
+                    h = v.getHeight() / 2.0f;
+
                     SmartAnimation.with(tech)
                             .duration(duration)
                             .delay(delay)
@@ -29,18 +39,21 @@ public class StartSmartAnimation {
                             .verticalCenter(h)
                             .playOn(v);
                 }
-            });
+            },400);
+
+
         }
         else {//if view is alreaddy loaded
             final float w = v.getWidth() / 2.0f;
             final float h = v.getHeight() / 2.0f;
-            SmartAnimation.with(tech)
-                    .duration(duration)
-                    .delay(delay)
-                    .alpha(alpha)
-                    .horizontalCenter(w)
-                    .verticalCenter(h)
-                    .playOn(v);
+                SmartAnimation.with(tech)
+                        .duration(duration)
+                        .delay(delay)
+                        .alpha(alpha)
+                        .horizontalCenter(w)
+                        .verticalCenter(h)
+                        .playOn(v);
+
         }
 
     }
@@ -53,11 +66,15 @@ public class StartSmartAnimation {
                                final long delay ,final boolean alpha ,final int slideLength){
 
         if(v.getWidth() == 0 || v.getHeight() == 0){//if view is just initialized for first time
-            v.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+
+            //delay is because view takes time to load its length
+            Handler delayHandler = new Handler();
+            delayHandler.postDelayed(new Runnable() {
                 @Override
-                public void onGlobalLayout() {
-                    final float w = v.getWidth() / 2.0f;
-                    final float h = v.getHeight() / 2.0f;
+                public void run() {
+                    w = v.getWidth() / 2.0f;
+                    h = v.getHeight() / 2.0f;
+
                     SmartAnimation.with(tech)
                             .duration(duration)
                             .delay(delay)
@@ -67,7 +84,8 @@ public class StartSmartAnimation {
                             .verticalCenter(h)
                             .playOn(v);
                 }
-            });
+            }, 400);
+
         }
         else {//if view is alreaddy loaded
             final float w = v.getWidth() / 2.0f;
@@ -82,4 +100,5 @@ public class StartSmartAnimation {
         }
 
     }
+
 }
