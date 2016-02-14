@@ -49,7 +49,7 @@ step2 -->
 click on second(app's gradle file) gradle file(gradle.build) highlighted in yellow.<br>
 <img src="http://hackingsimplified.com/ex3.PNG"><br>
 now in this file add this code in dependencies block<br><br>
-<b><i>compile 'com.github.ratty3697:android-smart-animation-library:1.3'</i></b><br><br>
+<b><i>compile 'com.github.ratty3697:android-smart-animation-library:1.4'</i></b><br><br>
 it should look like this --><br>
 <img src="http://hackingsimplified.com/ex5.PNG"><br><br>
 <u>NOTE</u>--> <b>In this file</b> <br>
