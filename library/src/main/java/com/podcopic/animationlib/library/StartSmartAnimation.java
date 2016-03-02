@@ -39,7 +39,7 @@ public class StartSmartAnimation {
                             .verticalCenter(h)
                             .playOn(v);
                 }
-            },400);
+            },100);
 
 
         }
@@ -84,7 +84,7 @@ public class StartSmartAnimation {
                             .verticalCenter(h)
                             .playOn(v);
                 }
-            }, 400);
+            }, 100);
 
         }
         else {//if view is alreaddy loaded
