@@ -24,9 +24,6 @@ public class SpecialView extends AppCompatActivity {
         else if(v.getId() == (R.id.landing)){
             StartSmartAnimation.startAnimation(v, AnimationType.Landing, 2000 , 0 ,true ,100);
         }
-        else if(v.getId() == (R.id.taking_off)){
-            StartSmartAnimation.startAnimation(v, AnimationType.TakingOff, 2000 , 0 ,true ,100);
-        }
         else if(v.getId() == (R.id.hinge)){
             StartSmartAnimation.startAnimation(v, AnimationType.Hinge, 2000 , 0 ,true ,100);
         }

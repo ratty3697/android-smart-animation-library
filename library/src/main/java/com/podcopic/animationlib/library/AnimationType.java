@@ -61,7 +61,6 @@ import com.podcopic.animationlib.library.zoom_out.ZoomOutDown;
 import com.podcopic.animationlib.library.zoom_out.ZoomOutLeft;
 import com.podcopic.animationlib.library.zoom_out.ZoomOutRight;
 import com.podcopic.animationlib.library.zoom_out.ZoomOutUp;
-import com.podcopic.animationlib.library.special.out.TakingOff;
 import com.podcopic.animationlib.library.special.Hinge;
 import com.podcopic.animationlib.library.special.RollIn;
 import com.podcopic.animationlib.library.special.RollOut;
@@ -71,7 +70,6 @@ public enum AnimationType {
     ShakeBand(ShakeBand.class),
     DropOut(DropOut.class),
     Landing(Landing.class),
-    TakingOff(TakingOff.class),
 
     Flash(Flash.class),
     Pulse(Pulse.class),
