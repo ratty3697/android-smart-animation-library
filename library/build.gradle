@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 ext {
     PUBLISH_GROUP_ID = 'com.podcopic.animationlib'
     PUBLISH_ARTIFACT_ID = 'smart-animation'
-    PUBLISH_VERSION = '1.4'
+    PUBLISH_VERSION = '1.6'
 }
 
 android {
@@ -14,7 +14,7 @@ android {
         minSdkVersion 10
         targetSdkVersion 23
         versionCode 5
-        versionName "1.5"
+        versionName "1.6"
     }
     buildTypes {
         release {
