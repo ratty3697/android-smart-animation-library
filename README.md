@@ -5,10 +5,10 @@
 this library is extended from -> http://www.github.com/JakeWharton/NineOldAndroids  && https://github.com/daimajia/AnimationEasingFunctions && https://github.com/daimajia/AndroidViewAnimations
 
 <div>
-    <img src="http://www.hackingsimplified.com/front.gif"  height="250" width="125" />
-    <img src="http://www.hackingsimplified.com/attention.gif" height="250" width="125" />
-    <img src="http://www.hackingsimplified.com/bouncein.gif" height="250" width="125" />
-    <img src="http://www.hackingsimplified.com/zoomin.gif" height="250" width="125" />
+    <img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/front.gif"  height="250" width="125" />
+    <img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/attention.gif" height="250" width="125" />
+    <img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/bouncein.gif" height="250" width="125" />
+    <img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/zoomin.gif" height="250" width="125" />
 </div>
 
 If you like this library then plz hit the star at the top right corner ;)
