@@ -40,7 +40,7 @@ click on FIRST(project's gradle file) gradle file (build.gradle) highlighted in 
 <img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/ex1.PNG"><br>
 In this file ,You will see "alprojects" block where "jcenter()" is included<br>
 add this line of code just below "jcenter()"--> <br><br>
-maven { url "https://jitpack.io" }<br><br>
+<code>maven { url "https://jitpack.io" }</code><br><br>
 It should look like this --><br>
 <br>
 <img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/ex2.PNG"><br>
