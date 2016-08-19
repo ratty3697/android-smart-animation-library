@@ -37,21 +37,21 @@ Features --><br>
 <h1>How to Import this Library in Your Android studio Project?</h1>
 step1 --><br>
 click on FIRST(project's gradle file) gradle file (build.gradle) highlighted in yellow.<br>
-<img src="http://hackingsimplified.com/ex1.PNG"><br>
+<img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/ex1.PNG"><br>
 In this file ,You will see "alprojects" block where "jcenter()" is included<br>
 add this line of code just below "jcenter()"--> <br><br>
 maven { url "https://jitpack.io" }<br><br>
 It should look like this --><br>
 <br>
-<img src="http://hackingsimplified.com/ex2.PNG"><br>
+<img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/ex2.PNG"><br>
 
 step2 -->
 click on second(app's gradle file) gradle file(gradle.build) highlighted in yellow.<br>
-<img src="http://hackingsimplified.com/ex3.PNG"><br>
+<img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/ex3.PNG"><br>
 now in this file add this code in dependencies block<br><br>
 <b><i>compile 'com.github.ratty3697:android-smart-animation-library:1.5'</i></b><br><br>
 it should look like this --><br>
-<img src="http://hackingsimplified.com/ex5.PNG"><br><br>
+<img src="https://github.com/ratty3697/android-smart-animation-library/blob/master/images/ex4.PNG"><br><br>
 <u>NOTE</u>--> <b>In this file</b> <br>
 
 1.)"compileSdkVersion" should be greater than or equals to 23<br>
